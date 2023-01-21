@@ -55,4 +55,8 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
     }
+
+    fun helloWorld(){
+        println("My first printing on console ")
+    }
 }
