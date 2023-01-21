@@ -60,10 +60,12 @@ class MainActivity : AppCompatActivity() {
                 || super.onSupportNavigateUp()
     }
 
-    fun printLogEvent(){
-        Log.d("Rama","Testing git profile")
-
-    fun addNumber(num1: Int, num2: Int){
-        print("Number ${num1+num2}")
+    fun printLogEvent() {
+        Log.d("Rama", "Testing git profile")
     }
+
+    fun addNumber(num1: Int, num2: Int) {
+        print("Number ${num1 + num2}")
+    }
+
 }
