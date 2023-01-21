@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Add my action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
+
+        addNumber(15, 20)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
