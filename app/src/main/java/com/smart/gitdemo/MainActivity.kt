@@ -30,10 +30,12 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "Add my action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
         printLogEvent()
+
+        addNumber(15, 20)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -60,5 +62,8 @@ class MainActivity : AppCompatActivity() {
 
     fun printLogEvent(){
         Log.d("Rama","Testing git profile")
+
+    fun addNumber(num1: Int, num2: Int){
+        print("Number ${num1+num2}")
     }
 }
